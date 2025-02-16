@@ -1,0 +1,112 @@
+<head>
+    <title>Home - My Blog</title>
+    <link rel="stylesheet" href="Main css.css">
+</head>
+
+<body>
+    <style>
+        li {
+            float: left;
+        }
+
+        .contact {
+            margin-top: 40px;
+            padding: 5px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .subscribe {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e8e8e8;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 80%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .categories {
+            text-align: left;
+            display: inline-block;
+        }
+
+        .subscribe button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease, background-color 0.3s ease;
+        }
+
+        .subscribe button:hover {
+            background-color: darkred;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.8),
+                0 0 20px rgba(255, 0, 0, 0.6),
+                0 0 30px rgba(255, 0, 0, 0.4);
+        }
+    </style>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="My Blog.html">Blog</a></li>
+        <li><a href="Categories.html">Categories</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+
+    <div class="move">
+        <h1 align="center">Welcome to My Blog</h1>
+        <p align="center">Your go-to place for interesting articles and updates.</p>
+    </div>
+
+    <div class="subscribe">
+        <h2>Subscribe to My Blog</h2>
+        <form method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email Address" required><br>
+
+            <div class="categories">
+                <p>Select topics you're interested in:</p>
+                <label><input type="checkbox" name="categories[]" value="Travel"> Travel</label><br>
+                <label><input type="checkbox" name="categories[]" value="Food"> Food</label><br>
+                <label><input type="checkbox" name="categories[]" value="Gaming"> Gaming</label><br>
+                <label><input type="checkbox" name="categories[]" value="Exercise"> Exercise</label><br>
+                <label><input type="checkbox" name="categories[]" value="Tech"> Tech</label><br>
+            </div>
+
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="contact">
+            <p style="color: black;">Phone: <a href="tel:7249910016" style="color: #1abc9c;">7249910016</a></p>
+            <p style="color: black;">Email: <a href="mailto:24csb0b63@email.com"
+                    style="color: #1abc9c;">24csb0b63@email.com</a></p>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://facebook.com"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="instagram.jpg" alt="Instagram"></a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
